@@ -6,4 +6,5 @@ const handler = (req: http.IncomingMessage, res: http.ServerResponse) => {
 
 const server = http.createServer(handler)
 
+console.log("Checkout http://localhost:8000")
 server.listen(8000)
