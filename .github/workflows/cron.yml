@@ -12,4 +12,5 @@ jobs:
     steps:
       - name: Make API Request
         run: |
-          curl -X GET "https://httpbin.org/get"
+          echo "Sending request to https://httpbin.org/get"
+          curl -i -X GET "https://httpbin.org/get"
